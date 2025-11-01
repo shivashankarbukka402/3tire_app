@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: harshajain/backend:latest
+        image: shiva9828/backhand:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
