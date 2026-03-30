@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: harshajain/backend
+  repository: shiva9828/backend
   tag: latest
   pullPolicy: Always
 
