@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: shiva9828/backend
+  repository: shiva9828/shankar-backend  
   tag: latest
   pullPolicy: Always
 
@@ -27,7 +27,7 @@ env:
 
 secret:
   appSecrets:
-    jwtSecret: c3VwZXJfc2VjcmV0X2tleQ==
+    jwtSecret: bXktc3VwZXItc2VjcmV0LXBhc3N3b3Jk  
   mongoSecrets:
     usernameKey: root-username
     passwordKey: root-password
